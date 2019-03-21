@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background: url(/img/background.png) no-repeat;
+  background-size: cover;
+  color: white;
+  background-color: #f8f6f2;
+}
+
+#wrapper {
+  margin: 0 auto;
+  padding: 0;
+  width: 70%;
+  overflow: hidden;
+}
+
+.news_block {
+  border-radius: 3px;
+  background-color: #638889;
+  padding: 20px;
+  padding-top: 0;
+  box-sizing: border-box;
+  color: #747c88;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.project_title {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.project_title a {
+  text-decoration: none;
+  color: white;
+}
+
+.title {
+  font-size: 50px;
+}
+
+.sub_title {
+  font-size: 25px;
+}
+
+.block_title {
+  height: 30px;
+  font-size: 18px;
+  width: 100%;
+  color: white;
+  border-bottom: 1px solid white;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.news_add {
+  width: 65%;
+  margin: 0 auto;
+  height: auto;
+  padding: 10px;
+  margin-bottom: 40px;
+}
+
+.btn {
+  margin: 20px auto;
+  padding: 12px;
+  width: 35%;
+  background-color: #6a707a;
+  border: 0;
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.add_form {
+  width: 100%;
+  height: auto;
+  padding: 10px 40px 10px 40px;
+  box-sizing: border-box;
+}
+.field {
+  width: 100%;
+  margin-bottom: 20px;
+  height: 40px;
+  font-size: 15px;
+  border-radius: 3px;
+  border: none;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+h3,
+h4,
+h5,
+h2 {
+  padding: 0;
+  margin: 10px 0;
+  color: white;
+}
+
+.article_text {
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  width: 97%;
+}
+
+.label_check {
+  color: white;
+}
+
+.add_video {
+  margin-bottom: 10px;
+}
+
+.add_btn {
+  text-align: center;
+}
+
+.btn_delete {
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 290px) and (max-width: 740px) {
+  #wrapper {
+    width: 93%;
+  }
+
+  .news_add {
+    width: 100%;
+  }
+
+  .add_form {
+    width: 90%;
+    padding: 0;
+    margin-left: 15px;
+  }
+
+  .btn {
+    width: 50%;
+  }
+
+  .btn_delete {
+    margin: 0;
+  }
+}
+
+@media (min-width: 741px) and (max-width: 991.98px) {
+  #wrapper {
+    width: 90%;
+  }
+}
